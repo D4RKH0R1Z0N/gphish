@@ -7,7 +7,7 @@
 </h5>
 
 <p align="center">
-	<img src="https://img.shields.io/github/repo-size/D4RKH0R1Z0N/gphish?style=for-the-badge"/>
+	<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/D4RKH0R1Z0N/gphish?style=for-the-badge">
 	<img src="https://img.shields.io/github/last-commit/D4RKH0R1Z0N/GPhish?color=green&style=for-the-badge"/>
 </p>
 
