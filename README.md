@@ -18,6 +18,16 @@
 </h4>
 
 <div align="center">
+  <h1 style="text-align: center; display: hidden;">Demo</h1>
+</div>
+
+| Demo | Demo |
+| ------------  | ------------ |
+|![](https://gphish.herokuapp.com/images/demo1.png)|![](https://gphish.herokuapp.com/images/demo2.png)
+| Demo | Demo |
+|![](https://gphish.herokuapp.com/images/demo3.png)|![](https://gphish.herokuapp.com/images/demo5.png)
+
+<div align="center">
   <h2>Deploy</h2>
   <a href="https://heroku.com/deploy?template=https://github.com/D4RKH0R1Z0N/gphish">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
@@ -26,13 +36,7 @@
 </div>
   <br>
  <br>
- 
-| Demo | Demo |
-| ------------  | ------------ |
-|![](https://gphish.herokuapp.com/images/demo1.png)|![](https://gphish.herokuapp.com/images/demo2.png)
-| Demo | Demo |
-|![](https://gphish.herokuapp.com/images/demo3.png)|![](https://gphish.herokuapp.com/images/demo5.png)
-  
+   
 <div align="center">
   <h2>Written in</h2>
   <img src="https://img.shields.io/badge/Css3-05122A?style=for-the-badge&logo=css3" alt="css3 Badge" height="25">&nbsp;
