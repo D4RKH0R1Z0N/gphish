@@ -7,8 +7,8 @@
 </h5>
 
 <p align="center">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/D4RKH0R1Z0N/gphish?style=for-the-badge&color=green&logo=github&link=https://github.com/D4RKH0R1Z0N/gphish&link=https://github.com/D4RKH0R1Z0N/gphish">
-  <img alt="author" src="https://img.shields.io/badge/Made%20by-D4RKH0R1Z0N-blue?style=for-the-badge&logo=github&link=https://github.com/D4RKH0R1Z0N&link=https://github.com/D4RKH0R1Z0N">
+  <a href="https://github.com/D4RKH0R1Z0N/gphish"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/D4RKH0R1Z0N/gphish?style=for-the-badge&color=green&logo=github&link=https://github.com/D4RKH0R1Z0N/gphish&link=https://github.com/D4RKH0R1Z0N/gphish"></a>
+  <a href="https://github.com/D4RKH0R1Z0N"><img alt="author" src="https://img.shields.io/badge/Made%20by-D4RKH0R1Z0N-blue?style=for-the-badge&logo=github&link=https://github.com/D4RKH0R1Z0N&link=https://github.com/D4RKH0R1Z0N"></a>
 </p>
 
 <h4 align="center">
