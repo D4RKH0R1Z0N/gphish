@@ -7,7 +7,7 @@
 </h5>
 
 <p align="center">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/D4RKH0R1Z0N/gphish?style=for-the-badge">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/D4RKH0R1Z0N/gphish?style=for-the-badge&color=green">
   <img alt="author" src="https://img.shields.io/badge/Made%20by-D4RKH0R1Z0N-blue?style=for-the-badge">
 </p>
 
@@ -22,6 +22,7 @@
   <a href="https://heroku.com/deploy?template=https://github.com/D4RKH0R1Z0N/gphish">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
   </a>
+  <h2>OR<br><br><a href="https://gphish.herokuapp.com/gphish.zip">Download .zip</a></h2>
 </div>
   <br>
  <br>
