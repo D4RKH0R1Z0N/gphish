@@ -1,6 +1,8 @@
 <h1 align="center">
   G-Phish<br>
-  <img style="height: 60px; width: 60px;" src="https://raw.githubusercontent.com/D4RKH0R1Z0N/gphish/master/images/icon2.png">
+  <kbd>
+    <img style="height: 60px; width: 60px;" src="https://raw.githubusercontent.com/D4RKH0R1Z0N/gphish/master/images/icon2.png">
+  </kdb>
 </h1>
 
 <h5 align="center">
