@@ -31,11 +31,13 @@
 |![](https://gphish.herokuapp.com/images/demo3.png)|![](https://gphish.herokuapp.com/images/demo5.png)
 
 <div align="center">
-  <h2>Deploy</h2>
-  <a href="https://heroku.com/deploy?template=https://github.com/D4RKH0R1Z0N/gphish">
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-  </a>
-  <h2>OR<br><br><a href="https://gphish.herokuapp.com/gphish.zip">Download .zip</a></h2>
+  <h2>Installion</h2>
+
+  ```bash
+  git clone https://github.com/D4RKH0R1Z0N/gphish && cd gphish && pip install -r requirements.txt && echo "GPhish has been Installed, Please run 'python run-gphish.py' or 'python3 run-gphish.py'"
+  ```
+  <br>
+  <p>After running the Installation, run `python run-gphish.py` or `python3 run-gphish.py`</p>
 </div>
 <br>
 <div align="center">
