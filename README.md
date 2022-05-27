@@ -21,6 +21,16 @@
 </h4>
 
 <div align="center">
+  <h2>Installion</h2>
+
+  ```bash
+  git clone https://github.com/D4RKH0R1Z0N/gphish && cd gphish && pip install -r requirements.txt && echo "GPhish has been Installed, Please run 'python run-gphish.py' or 'python3 run-gphish.py'"
+  ```
+  <br>
+  <p>After running the Installation, run `python run-gphish.py` or `python3 run-gphish.py`</p>
+</div>
+
+<div align="center">
   <h1 style="text-align: center; display: hidden;">Demo</h1>
 </div>
 
@@ -30,15 +40,6 @@
 | Demo | Demo |
 |![](https://gphish.herokuapp.com/images/demo3.png)|![](https://gphish.herokuapp.com/images/demo5.png)
 
-<div align="center">
-  <h2>Installion</h2>
-
-  ```bash
-  git clone https://github.com/D4RKH0R1Z0N/gphish && cd gphish && pip install -r requirements.txt && echo "GPhish has been Installed, Please run 'python run-gphish.py' or 'python3 run-gphish.py'"
-  ```
-  <br>
-  <p>After running the Installation, run `python run-gphish.py` or `python3 run-gphish.py`</p>
-</div>
 <br>
 <div align="center">
   <h2>Written in</h2>
