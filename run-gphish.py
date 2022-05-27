@@ -8,7 +8,8 @@ warnings.filterwarnings("ignore")
 if platform == "win32":
   clear = "cls"
 else:
-  clear = "clear"
+  print("This script only works on Windows, Please run it on a Windows machine")
+  exit()
 
 if os.path.isfile("index.php"):
   file_exists = 1
