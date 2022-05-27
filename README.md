@@ -37,17 +37,14 @@
   </a>
   <h2>OR<br><br><a href="https://gphish.herokuapp.com/gphish.zip">Download .zip</a></h2>
 </div>
-  <br>
- <br>
-   
+<br>
 <div align="center">
   <h2>Written in</h2>
   <img src="https://img.shields.io/badge/Css3-05122A?style=for-the-badge&logo=css3" alt="css3 Badge" height="25">&nbsp;
   <img src="https://img.shields.io/badge/Html5-05122A?style=for-the-badge&logo=html5" alt="html5 Badge" height="25">&nbsp;
   <img src="https://img.shields.io/badge/Javascript-05122A?style=for-the-badge&logo=javascript" alt="javascript Badge" height="25">&nbsp;
   <img src="https://img.shields.io/badge/PHP-05122A?style=for-the-badge&logo=php" alt="PHP Badge" height="25">&nbsp;
+  <h5 align="center">
+    ⚠💀 Warning! This project is only made for Educational purposes, I am not responsible for any of you actions! 💀⚠
+  </h5>
 </div>
-
-<h5 align="center">
-  ⚠💀 Warning! This project is only made for Educational purposes, I am not responsible for any of you actions! 💀⚠
-</h5>
