@@ -5,10 +5,7 @@ import os, time, subprocess
 from sys import platform, exit
 import pyfiglet as figlet
 from pyngrok import ngrok
-import pyshorteners
 warnings.filterwarnings("ignore")
-
-urlsh = pyshorteners.Shortener()
 
 if platform == "win32":
   clear = "cls"
