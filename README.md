@@ -16,8 +16,11 @@
 
 <h4 align="center">
   Status: ✔️ Available
-  <br>
-  MAKE THE IMPOSSIBLE POSSIBLE!
+  <br><br>
+  Available For :
+  <br><br>
+  <img src="https://img.shields.io/badge/Windows-05122A?style=for-the-badge&logo=windows">
+  <img src="https://img.shields.io/badge/Linux-05122A?style=for-the-badge&logo=linux">
 </h4>
 
 <div align="center">
