@@ -24,6 +24,8 @@
 </h4>
 
 <div align="center">
+  <h4>To lazy to Set it up? We have a Solution!</h4>
+  <img src="https://img.shields.io/badge/Use%20Online%20on%20Repl.it!-05122A?style=for-the-badge&logo=replit">
   <h2>Installion</h2>
 
   ```bash
