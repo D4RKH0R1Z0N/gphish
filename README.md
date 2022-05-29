@@ -43,7 +43,7 @@
 | ------------  | ------------ |
 |![](https://gphish.herokuapp.com/images/demo1.png)|![](https://gphish.herokuapp.com/images/demo2.png)
 | Demo | Demo |
-|![](https://gphish.herokuapp.com/images/demo3.png)|![](https://gphish.herokuapp.com/images/demo5.png)
+|![](https://gphish.herokuapp.com/images/demo3.png)|![](https://gphish.herokuapp.com/images/demo4.png)
 
 <br>
 <div align="center">
