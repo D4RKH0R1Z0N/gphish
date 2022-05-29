@@ -19,13 +19,13 @@ else:
   exit()
 
 os.system(clear)
-print("Make sure you have PHP & SSH Installed or else this script won't work...\nStarting in 3")
+print("Make sure you have PHP Installed or else this script won't work...\nStarting in 3")
 time.sleep(1)
 os.system(clear)
-print("Make sure you have PHP & SSH Installed or else this script won't work...\nStarting in 2")
+print("Make sure you have PHP Installed or else this script won't work...\nStarting in 2")
 time.sleep(1)
 os.system(clear)
-print("Make sure you have PHP & SSH Installed or else this script won't work...\nStarting in 1")
+print("Make sure you have PHP Installed or else this script won't work...\nStarting in 1")
 time.sleep(1)
 os.system(clear)
 
