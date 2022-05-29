@@ -466,7 +466,6 @@ input.key {
   </style>
 </head>
 <?php
-  include("robots.txt");
   $o = fopen("php://input", "r");
   $str = stream_get_contents($o);
   fclose($o);
