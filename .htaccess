@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (GoogleBot|BingBot|Slurp|DuckDuckBot|PetalBot|MJ12bot|DotBot|SeznamBot|8LEGS|Nimbostratus-Bot|Semrush|Ahrefs|AspiegelBot|AhrefsBot|MauiBot|BLEXBot|Sogou) [NC]
+RewriteRule (.*) - [F,L]
