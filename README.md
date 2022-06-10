@@ -35,14 +35,14 @@
   <a href="https://replit.com/@D4RKH0R1Z0N/GPhish?v=1"><img src="https://img.shields.io/badge/Use%20Online%20on%20Repl.it!-05122A?style=for-the-badge&logo=replit"></a>
 </div>
 
-<div align="center">
-  <h1 style="text-align: center; display: hidden;">Demo</h1>
-</div>
+<h2 align="center">Here's a Demo!</h2>
 
 | Demo | Demo |
 | ------------  | ------------ |
 |![](http://gphish.herokuapp.com/images/demo1.png)|![](http://gphish.herokuapp.com/images/demo2.png)
+
 | Demo | Demo |
+| ------------- | ------------ |
 |![](http://gphish.herokuapp.com/images/demo3.png)|![](http://gphish.herokuapp.com/images/demo4.png)
 
 <br>
