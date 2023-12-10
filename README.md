@@ -39,11 +39,11 @@
 
 | Demo | Demo |
 | ------------  | ------------ |
-|![](http://gphish.herokuapp.com/images/demo1.png)|![](http://gphish.herokuapp.com/images/demo2.png)
+|![](https://raw.githubusercontent.com/D4RKH0R1Z0N/gphish/master/images/demo1.png)|![](https://raw.githubusercontent.com/D4RKH0R1Z0N/gphish/master/images/demo2.png)
 
 | Demo | Demo |
 | ------------- | ------------ |
-|![](http://gphish.herokuapp.com/images/demo3.png)|![](http://gphish.herokuapp.com/images/demo4.png)
+|![](https://raw.githubusercontent.com/D4RKH0R1Z0N/gphish/master/images/demo3.png)|![](https://raw.githubusercontent.com/D4RKH0R1Z0N/gphish/master/images/demo4.png)
 
 <br>
 <div align="center">
