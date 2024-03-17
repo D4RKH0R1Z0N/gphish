@@ -1,5 +1,7 @@
 ## ! MAJOR UPDATE COMING SOON !
 Google has updated it's login page (early 2024), development for the new phishing page will begin after 25th of March 2024
+View beta version in 'v2' branch
+
 <h1 align="center">
   G-Phish<br>
   <kbd>
